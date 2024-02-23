@@ -1,0 +1,43 @@
+<!DOCTYPE htm1>
+<!--Coding by CodinglLab || www.codinglabweb.com -->
+	<html lang="en"
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width+device-width, inital-scale=1.0" />
+			<title>Login&Signup Form</title>
+			<link rel="stylesheet" href="style.css" />
+		</head>
+		<body></body>
+	</html>
+	<body>
+		<sction class="wrapper">
+			<div class="form Singup">
+				<header>Signup</header>
+				<form action="#">
+					<input type="text" placeholoder="Full name" required/>
+					<input type="text" placeholoder="Email adress" required/>
+					<input type="password" placeholoder="Password" required/>
+					<div class="checkbox">
+						<input type="checkbox"id="signupC" />
+						<label for="signupCheck">I accept all therms & conditions</lable>
+					</div>
+					<input type="submit" value="Signup" required/>
+				</form>
+			</div>
+
+			<div class="form Login">
+				<header>Login</header>
+				<form action="#">
+					<input type="text" placeholoder="Email adress" required/>
+					<input type="password" placeholoder="Password" required/>
+					<a href="#">Forgot password?</a>
+					<input type="submit" value="Signup"Login" />
+				</form>
+			</div>
+		<script>
+			const arapper = document.querySelector("wrapper"),
+			signupHeader = document.querySelector(".signup header"),
+			login arapper = document.querySelector("wrapper"),
+		</selction>
+	</body>
+</html>
